@@ -1,0 +1,8 @@
+INFO: Server started
+INFO: User logged in
+ERROR: Connection failed
+INFO: Retrying
+WARN: Slow response
+ERROR: Timeout
+INFO: User logged out
+ERROR: File not found
