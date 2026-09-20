@@ -19,7 +19,7 @@ lines.forEach((line, index) => {
   if (line.toLowerCase().includes(pattern.toLowerCase())) {
     console.log(`${index + 1}: ${line}`);
   }
-}});
+});
 
 // node grep.js ERROR sample.log
 // node grep.js error sample.log
