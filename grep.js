@@ -16,7 +16,7 @@ const content = fs.readFileSync(fileName, 'utf-8');
 const lines = content.split('\n');
 
 lines.forEach((line, index) => {
-  if (line.toLowerCase().includes(pattern.toLowerCase())) { {
+  if (line.toLowerCase().includes(pattern.toLowerCase())) {
     console.log(`${index + 1}: ${line}`);
   }
 }});
