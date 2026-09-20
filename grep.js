@@ -1,3 +1,7 @@
+// enhanced-grep : a small node.js version of the unix grep command
+// reads a file and prints lines according to search word (case sensitive)
+// ran with: node grep.js <search-word> <file>
+
 const fs = require('fs');
 
 const pattern = process.argv[2];
